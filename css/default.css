@@ -1,0 +1,41 @@
+body {
+	background: #E6E6E6 url(http://static.anime-kita.dk/images/bg-top.png) repeat-x;
+	margin-top: 0;
+	font-family: Verdana, sans-serif;
+	font-size:62.5%;
+	color: #3E3E3E;
+}
+
+h2 {
+	font: 1.8em Georgia, "Times New Roman", serif; letter-spacing: 1px;
+	font-weight: normal;
+}
+
+p, span, form, table {
+	font-size: 1.2em;
+	text-align: justify;
+	line-height: 1.4em;
+}
+
+a {
+	text-decoration: none;
+	color: #3E3E3E;
+	font-weight: bold;
+	border-width: 0 0 1px 0;
+	border-color: #3E3E3E;
+	border-style: dotted;
+}
+
+/** General **/
+.center {
+  width: 720px;
+  margin: 0 auto;
+  overflow: auto;
+  text-align: left;
+}
+
+/** Footer **/
+#footer {
+	font-size: 10pt;
+	text-align: center;
+}
