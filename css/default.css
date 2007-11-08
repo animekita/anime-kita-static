@@ -1,5 +1,11 @@
+/**
+ * Anime Kita default styles
+ * $Revision$
+ * $Date$
+ **/
+
 body {
-	background: #E6E6E6 url(http://static.anime-kita.dk/images/bg-top.png) repeat-x;
+	background: #E7E9E9 url(http://static.anime-kita.dk/images/bg-top.png) repeat-x;
 	margin-top: 0;
 	font-family: Verdana, sans-serif;
 	font-size:62.5%;
