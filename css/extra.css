@@ -196,3 +196,16 @@
 #content table.vertical th {
 	width: 45%;
 }
+
+#content ul.table-options {
+	list-style-type: none;
+	padding: 0;
+}
+#content ul.table-options li {
+	display: inline;
+	margin: 0 10px 0 10px;
+	padding: 0px;
+}
+#content ul.table-options li a {
+	font-weight: normal;
+}
