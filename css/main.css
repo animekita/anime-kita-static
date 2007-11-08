@@ -1,4 +1,10 @@
-/** Banner **/
+/**
+ * Anime Kita main page styles
+ * $Revision$
+ * $Date$
+ **/
+ 
+ /** Banner **/
 #banner {
 	background: #FFFFFF url(http://static.anime-kita.dk/images/banner.png) no-repeat;
 	height: 107px;

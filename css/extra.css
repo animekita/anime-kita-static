@@ -1,3 +1,9 @@
+/**
+ * Anime Kita content page styles
+ * $Revision$
+ * $Date$
+ **/
+
 /** Banner **/
 #banner {
 	background: #FFFFFF url(http://static.anime-kita.dk/images/extra-banner.png) no-repeat;
@@ -181,9 +187,10 @@
 }
 
 #content table td, #content table th {
-  	background:#f9f9f9; 	
+  	background:#f9f9f9;
   	border:1px dashed #ccc; border-width:1px 0 0 0;
 	padding: 0.4em 0 0.4em 7px;
+	font-weight: normal;
 }
 
 #content table.vertical th {
