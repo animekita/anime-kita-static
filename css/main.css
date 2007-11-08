@@ -38,17 +38,21 @@
 	background: #FFFFFF url(http://static.anime-kita.dk/images/menu-bg.png) repeat-y;
 	width: 197px;
 	margin: 0 0 29px 0;
-	padding: 10px 0 0 0;
+	padding:10px 0px 0px 0px;
 	list-style: none;
+	font-size:1.2em;
 }
 #menu li, #forum li {
-	margin-left: 18px;
-	margin-right: 10px;
-	margin-bottom: 7px;
+	margin-left:12px;
+	margin-right:18px;
+	margin-bottom:8px;
+}
+#forum li{
+margin-top:5px;
 }
 
 #menu li a, #forum li a {
-	font-size: 1.3em;
+	font-size: 1.1em;
 	text-decoration: none;
 	line-height: 1em;
 	font-weight: normal;
@@ -118,7 +122,7 @@ div.content-anime h2 {
 	padding: 167px 0 0 10px;
 }
 
-/** Velcome message **/
+/** Welcome message **/
 #banner-msg {
 	background: #FFFFFF url(http://static.anime-kita.dk/images/banner-msg.png) no-repeat;
 	height: 176px;
