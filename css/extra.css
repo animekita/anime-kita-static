@@ -28,9 +28,9 @@
 	width: 540px;
 }
 
-#content p, #content ul, #content h2, #content h3, 
-#content h4, #content table, #content fieldset, 
-#content ul, #content span, #content dl, #content table {
+#content p, #content h2, #content h3, 
+#content h4, #content fieldset, #content table, 
+#content ul, #content span, #content dl {
 	margin-right: 30px;
 	margin-left: 10px;
 }
