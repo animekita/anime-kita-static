@@ -40,9 +40,16 @@
 	list-style: square;
 }
 
-#content ul li {
+#content ul li, #content ol li {
 	padding-bottom: 1em;
 	font-size: 1.3em;
+}
+#content ul li ul, #content ul li ol, #content ol li ul, #content ol li ol {
+	margin-top: 1em;
+}
+#content ul li ul li, #content ul li ol li, #content ol li ul li, #content ol li ol li {
+	font-size: 1em;
+	padding-bottom: 1em;
 }
 
 #content h2 {
