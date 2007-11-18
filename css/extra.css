@@ -209,3 +209,17 @@
 #content ul.table-options li a {
 	font-weight: normal;
 }
+
+#content #messages {
+	background-color: #45B2E4;
+	list-style: none;
+	padding: 0 0 10px 0;
+	overflow: auto;
+	border: solid 1px #000000;
+}
+#content #messages li {
+	margin: 10px 10px 0px 10px;
+	font-style: italic;
+	padding: 0;
+	
+}
