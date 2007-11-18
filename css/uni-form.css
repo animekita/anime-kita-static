@@ -38,11 +38,11 @@
 .uniForm .inlineLabels label, .uniForm .inlineLabels .label {
     width: 45%; /* Required property */
 }
-
 /* Allow checkboxes to use the full width */
 .uniForm .inlineLabels div div label {
-	width: 100%;
+    width: 100%;
 }
+
 .uniForm .inlineLabels div div label em {
     display: inline;
     position: static;
@@ -63,9 +63,11 @@
 }
 
 #content form.uniForm .inlineLabels .formHint {
-    margin-top: 0;
     margin-left: 47%;
     font-size: 1em;
+    margin-bottom: 0px;
+	padding-top: 5px;
+	font-style: italic;
 }
 /* .blockLabels */
 .uniForm .blockLabels .textInput, .uniForm .blockLabels .fileUpload {
