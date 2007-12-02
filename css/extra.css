@@ -95,6 +95,10 @@
 	font-size: 1.3em;
 }
 
+#menu ul li a:hover {
+	font-weight: bold;
+}
+
 #menu #pageControls li a {
 	font-weight: normal;
 	margin-left: 20px;
