@@ -30,7 +30,8 @@
 
 #content p, #content h2, #content h3, 
 #content h4, #content fieldset, #content table, 
-#content ul, #content span, #content dl {
+#content ul, #content span, #content dl,
+#content div.tx-rgsmoothgallery-pi1 {	
 	margin-right: 30px;
 	margin-left: 10px;
 }
@@ -233,4 +234,14 @@
 	font-style: italic;
 	padding: 0;
 	
+}
+
+/** Gallery **/
+#content div.tx-rgsmoothgallery-pi1 {
+	margin-bottom: 10px;
+	margin-left: 33px;
+}
+
+#content div.tx-rgsmoothgallery-pi1 p {
+	font-size: 1em;
 }
