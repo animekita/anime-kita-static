@@ -59,6 +59,10 @@ margin-top:5px;
 	border: none;
 }
 
+#menu li a:hover {
+	font-weight: bold;
+}
+
 #forum li a span {
 	display: block;
 	font-size: 0.8em;
@@ -96,12 +100,22 @@ div.content span.news-latest-morelink {
 	float: left;
 }
 
-div.content-inner * {
-	margin: 0 30px 10px 20px;
+div.content-inner p, div.content-inner h3, 
+div.content-inner h4, div.content-inner fieldset, div.content-inner table, 
+div.content-inner ul, div.content-inner span, div.content-inner dl {
+	margin-right: 30px;
+	margin-left: 20px;
 }
-div.content-inner * * {
-	margin: 0;
+
+div.content-inner ul {
+	padding-left: 28px;
+	list-style: square;
 }
+
+div.content-inner ul li {
+	font-size: 1.3em;
+}
+
 div.content-inner {
 	margin-bottom: 23px;
 	text-align: justify;
