@@ -31,7 +31,10 @@
 
 .uniForm .ctrlHolder, .uniForm .buttonHolder {
     background: #f9f9f9;
-    border: 1px solid #ccc;
+}
+.uniForm .ctrlHolder {
+	border-color: #ccc;
+	border-style: solid;
     border-width: 1px 0 0 0;
 }
 /* .inlineLabels */
