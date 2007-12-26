@@ -220,11 +220,6 @@
 }
 
 /** Regulations **/
-div.regulations {
-	font-family: monospace;
-	font-size: 1.2em;
-}
-
 div.regulations dl {
 	margin-left: 20px;
 }
