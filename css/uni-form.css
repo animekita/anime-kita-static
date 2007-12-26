@@ -18,6 +18,11 @@
     padding: 7px;
 }
 
+.uniForm .ctrlHolder em {
+	background-color: transparent;
+	padding-top: 4px;
+}
+
 .uniForm .buttonHolder {
     text-align: right; /* Recommended */
     margin: 10px 0 0 0;
@@ -108,7 +113,7 @@
     background: #ffdfdf;
     border: 1px solid #df7d7d;
     border-width: 1px 0;
-    margin: 0 30px 1em 10px;
+    margin: 0 30px 1em 0px;
     padding: 1em;
 }
 

@@ -3,24 +3,26 @@
  * $Revision$
  * $Date$
  **/
-
-body {
-	background: #E7E9E9 url(http://static.anime-kita.dk/images/bg-top.png) repeat-x;
+ 
+ body {	
+ 	background: #E7E9E9 url(http://static.anime-kita.dk/images/bg-top.png) repeat-x;
 	margin-top: 0;
-	font-family: Verdana, sans-serif;
-	font-size:62.5%;
+ 	font-family: Verdana, sans-serif;
 	color: #3E3E3E;
+ }
+ 
+h1, h2, h3, h4, h5, h6 { 
+	color: #3E3E3E;
+	font-family: Georgia, "Times New Roman", serif; 
+	letter-spacing: 1px;
 }
 
-h2 {
-	font: 1.8em Georgia, "Times New Roman", serif; letter-spacing: 1px;
-	font-weight: normal;
+h2 { 
+	font-size: 1.6em; 
 }
 
-p, span, form, table {
-	font-size: 1.2em;
+p, li {
 	text-align: justify;
-	line-height: 1.4em;
 }
 
 a {
@@ -32,16 +34,7 @@ a {
 	border-style: dotted;
 }
 
-/** General **/
-.center {
-  width: 720px;
-  margin: 0 auto;
-  overflow: auto;
-  text-align: left;
-}
-
 /** Footer **/
 #footer {
-	font-size: 10pt;
 	text-align: center;
 }

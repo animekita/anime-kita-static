@@ -3,47 +3,48 @@
  * $Revision$
  * $Date$
  **/
-
-/** Banner **/
-#banner {
-	background: #FFFFFF url(http://static.anime-kita.dk/images/extra-banner.png) no-repeat;
+ 
+ /** Banner **/
+#banner a {
+	background: url(http://static.anime-kita.dk/images/extra-banner.png) no-repeat;
 	height: 109px;
-}
-#banner h1 {
-	display: none;
+	display: block;
+	
+    padding: 109px 0 0 0;
+    overflow: hidden;
+    height: 0px !important;
+    height /**/:109px;
+	
+	border: none;	
 }
 
 /** Container **/
 #container {
-	background: #FFFFFF url(http://static.anime-kita.dk/images/extra-bg.png) repeat-y;
+	background: url(http://static.anime-kita.dk/images/extra-bg.png) repeat-y;
 }
+
 #container-inner {
+	position: relative;
+	right: 1px; /** the container is 1px to wide, move the internal container to match the border **/
 	background: url(http://static.anime-kita.dk/images/extra-side-top.png) no-repeat top right;
 	overflow: auto;
 }
 
 /** Content **/
-#content {
-	overflow: auto;
-	width: 540px;
-}
-
 #content p, #content h2, #content h3, 
 #content h4, #content fieldset, #content table, 
 #content ul, #content span, #content dl,
 #content div.tx-rgsmoothgallery-pi1 {	
 	margin-right: 30px;
-	margin-left: 10px;
 }
 
 #content ul {
-	padding-left: 18px;
+	padding-left: 8px;
 	list-style: square;
 }
 
 #content ul li, #content ol li {
 	padding-bottom: 1em;
-	font-size: 1.3em;
 }
 #content ul li ul, #content ul li ol, #content ol li ul, #content ol li ol {
 	margin-top: 1em;
@@ -56,7 +57,6 @@
 #content h2 {
 	margin-top: 0;
 	margin-bottom: 0.5em;
-	margin-left: 7px; /** Header correction, seemed to be pressed a little to far into the page **/
 }
 
 #content p {
@@ -72,11 +72,6 @@
 }
 
 /** Menu **/
-#menu {
-	width: 180px;
-	float: left;
-}
-
 #menu ul {
 	list-style: none;
 	padding: 0;
@@ -93,39 +88,22 @@
 	text-decoration: none;
 	font-weight: normal;
 	border: none;
-	font-size: 1.3em;
 }
 
 #menu ul li a:hover {
 	font-weight: bold;
 }
 
-#menu #pageControls li a {
-	font-weight: normal;
-	margin-left: 20px;
-	font-style: italic;
-}
-
-#menu #pageControlsPrint {
-	background-image: url(http://static.anime-kita.dk/images/printer.png);
-	background-repeat: no-repeat;
-}
-
-#menu #pageControlsPDF {
-	background-image: url(http://static.anime-kita.dk/images/pdf.png);
-	background-repeat: no-repeat;
-}
-
 /** Footer **/
 #footer {
 	padding-top: 23px;
-	background: url(http://static.anime-kita.dk/images/extra-bottom.png) no-repeat top right;
+	background: url(http://static.anime-kita.dk/images/extra-bottom.png) no-repeat top left;
 }
 
 /** Breadcrumbs **/
 #breadcrumbs {
 	height: 27px;
-	background: #000000 url(http://static.anime-kita.dk/images/extra-bread.png) no-repeat;
+	background: url(http://static.anime-kita.dk/images/extra-bread.png) no-repeat;
 }
 
 #breadcrumbs ul {
@@ -143,7 +121,6 @@
 
 #breadcrumbs ul li a, #breadcrumbs ul li span {
 	margin: 0 5px 0 0;
-	font-size: 1.0em;
 	line-height: 2.4em;
 	font-weight: normal;
 }
@@ -162,38 +139,38 @@
 }
 #content #archive li a span {
 	font-weight: normal;
-	font-size: 1em;
 	margin: 0 10px 0 0;
 }
 
 /** Content links **/
-#content dt {
-	font-size: 1.3em;
-}
 #content dd, #content dd p {
 	margin: 0;
 	padding: 0;
 }
 
 /** Contact form **/
-.csc-mailform label {
-	display: block;
-}
-.csc-mailform-field input, .csc-mailform textarea {
-	width: 466px;
-}
-.csc-mailform input.csc-mailform-submit {
-	width: auto;
-}
 #mailform {
 	margin: 0px;
   	padding: 0px;
 }
 
+#mailform label {
+	display: block;
+}
+
+#mailform input, #mailform textarea {
+	width: 440px;
+	background-color: #FFFFFF;
+}
+
+#mailform input.mailform-submit {
+	width: auto;
+}
+
 /** tables **/
 #content table {
   	border:1px dashed #ccc; border-width: 0 0 1px 0;
-  	width: 500px;
+  	width: 485px;
 	background-color: black;
 	border-collapse: collapse; 
 }
@@ -242,6 +219,30 @@
 	margin-left: 33px;
 }
 
-#content div.tx-rgsmoothgallery-pi1 p {
-	font-size: 1em;
+/** Regulations **/
+div.regulations {
+	font-family: monospace;
+	font-size: 1.2em;
+}
+
+div.regulations dl {
+	margin-left: 20px;
+}
+
+div.regulations dt {
+	float: left;
+	font-weight: bold;
+	font-style: italic;
+	margin-right: 20px;
+}
+
+div.regulations dd {
+	text-align: justify;
+	margin-top: 20px;
+}
+
+div.regulations dd ol {
+	margin-top: 1em;
+	margin-left: 40px;
+	margin-bottom: 1em;
 }
