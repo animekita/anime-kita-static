@@ -156,3 +156,8 @@
     background: #ffbfbf;
     font-size: 1em;
 }
+
+/** Better selects **/
+.uniForm select {
+	padding: 5px 0 5px 3px;
+}

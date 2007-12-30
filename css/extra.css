@@ -241,3 +241,12 @@ div.regulations dd ol {
 	margin-left: 40px;
 	margin-bottom: 1em;
 }
+
+/** Icons **/
+a.icon {
+	border: none;
+}
+
+a.icon img {
+	margin: 0;
+}
