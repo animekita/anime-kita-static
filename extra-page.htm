@@ -6,13 +6,15 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Anime Kita&nbsp;:&nbsp;Om os</title>
-	<link rel="stylesheet" href="http://static.anime-kita.dk/v2.1/css/blueprint/screen.css" type="text/css" media="screen, projection" />
-	<link rel="stylesheet" href="http://static.anime-kita.dk/v2.1/css/blueprint/print.css" type="text/css" media="print" />
-	<link rel="stylesheet" href="http://static.anime-kita.dk/v2.1/css/print.css" type="text/css" media="print" />
-	<!--[if IE]><link rel="stylesheet" href="http://static.anime-kita.dk/v2.1/css/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
-	<link rel="stylesheet" type="text/css" href="http://static.anime-kita.dk/v2.1/css/default.css" media="screen, projecton"/>
-	<link rel="stylesheet" type="text/css" href="http://static.anime-kita.dk/v2.1/css/extra.css" media="screen, projecton"/>
-	<link rel="stylesheet" type="text/css" href="http://static.anime-kita.dk/v2.1/css/uni-form.css" media="screen, projecton"/>
+	<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection" />
+	<link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print" />
+	<link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+	<!--[if IE]><link rel="stylesheet" href="css/blueprint/lib/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" type="text/css" href="css/default.css" media="screen, projecton"/>
+	<link rel="stylesheet" type="text/css" href="css/extra.css" media="screen, projecton"/>
+	<link rel="stylesheet" type="text/css" href="css/uni-form.css" media="screen, projecton"/>
+	<script type="text/javascript" src="js/mootools-release-1.11.js" />
+	<script type="text/javascript" src="js/menu-highlight.js" />
 </head>
 <body>
 <div class="container">
@@ -35,6 +37,11 @@
 			
 			<div id="content" class="column span-5 last">
 				<h2>Om os</h2>
+				
+				<ul id="messages">
+					<li>Payment noted</li>
+				</ul>
+				
 				<p>Anime Kita er en anime forening med base i Aalborg, Nordjylland. Her er det medlemmerne der sætter dagsordenen, hvilket gør at alle kan nyde godt af hinandens ideer og engagement.</p>
 				<p>Vi bestræber os på at skabe et mere samlet miljø, hvor ligesindede personer kan dele deres interesser, gennem blandt andet vores forum og IRC kanal. Vi vil fire gange om året afholde træf, hvor det er muligt at underholde sig med hinandens selskab, samt deltage i forskellige konkurrencer og aktiviteter.</p>
 				<p>Derudover støtter vi også mindre arrangementer, med håb om at sætte vores præg på den danske anime scene i Nordjylland. Så hvad enten du er en rigtig ”otaku” eller først nu har fået øjnene op for den japanske popkultur, er alle interesserede velkomne til vores træf og møder.</p>
@@ -71,7 +78,15 @@
             <p class="formHint">Note: Your email is your username. Use a valid email address.</p>
           </div>
 
-          
+          <div class="ctrlHolder">
+<label for="id_type"><em>*</em> Betalingstype</label>
+
+<select name="type" id="id_type" class="selectInput">
+<option value="FULL">Fuldt kontingent</option>
+<option value="FRATE">Første rate</option>
+</select><p class="formHint"></p>
+</div>
+
           <div class="ctrlHolder error">
             <p id="error1" class="errorField"><strong>Passwords don't match</strong></p>
             <label for="password"><em>*</em> Choose Password</label>
@@ -120,7 +135,7 @@
 </tr>
 <tr>
     <th>Gade</td>
-    <td></td>
+    <td><a class="icon" href="/" title="payment history"><img src="http://static.anime-kita.dk/v2.1/images/icons/book.png" /></a><a class="icon" href="/" title="payment history"><img src="http://static.anime-kita.dk/v2.1/images/icons/book.png" /></a></td>
 </tr>
 <tr>
     <th>Postnummer &amp; by</td>

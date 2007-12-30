@@ -79,19 +79,16 @@
 }
 
 #menu ul li {
-	margin-left: 18px;
-	margin-right: 10px;
-	margin-bottom: 7px;
+	margin-left: 6px;
+	margin-right: 40px;
+	line-height: 2em;
 }
 
 #menu ul li a {
 	text-decoration: none;
-	font-weight: normal;
 	border: none;
-}
-
-#menu ul li a:hover {
-	font-weight: bold;
+	font-weight: 100;
+	margin-left: 12px;
 }
 
 /** Footer **/
@@ -199,16 +196,19 @@
 	font-weight: normal;
 }
 
+/** Messages **/
 #content #messages {
-	background-color: #45B2E4;
+	background-color: #729fcf;
 	list-style: none;
-	padding: 0 0 10px 0;
+	padding: 0;
+	margin-left: 0;
 	overflow: auto;
-	border: solid 1px #000000;
+	border: solid #2e3436;
+	border-width: 1px 0 1px 0;
 }
 #content #messages li {
-	margin: 10px 10px 0px 10px;
-	font-style: italic;
+	margin: 5px 10px 5px 10px;
+	font-weight: bold;
 	padding: 0;
 	
 }
