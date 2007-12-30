@@ -87,8 +87,12 @@
 #menu ul li a {
 	text-decoration: none;
 	border: none;
-	font-weight: 100;
+	font-weight: normal;
 	margin-left: 12px;
+}
+
+#menu ul li a:hover{
+	font-weight: bold;
 }
 
 /** Footer **/
