@@ -1,6 +1,6 @@
  /** Banner **/
 #banner a {
-	background: url(http://static.anime-kita.dk/images/banner.png) no-repeat;
+	background: url(http://static.anime-kita.dk/v2.1/images/banner.png) no-repeat;
 	height: 107px;
 	display: block;
 	
@@ -14,7 +14,7 @@
 
 /** Welcome message **/
 #banner-msg {
-	background: url(http://static.anime-kita.dk/images/banner-msg.png) no-repeat;
+	background: url(http://static.anime-kita.dk/v2.1/images/banner-msg.png) no-repeat;
 	height: 176px;
 }
 
@@ -30,7 +30,7 @@
 
 /** Menu and Forum **/
 #menu, #forum {
-	background: #FFFFFF url(http://static.anime-kita.dk/images/menu-bottom.png) no-repeat bottom;
+	background: #FFFFFF url(http://static.anime-kita.dk/v2.1/images/menu-bottom.png) no-repeat bottom;
 	width: 197px;
 	overflow: auto;
 }
@@ -46,15 +46,15 @@
 }
 
 #menu h2 {
-	background: #FFFFFF url(http://static.anime-kita.dk/images/menu.png) no-repeat;
+	background: #FFFFFF url(http://static.anime-kita.dk/v2.1/images/menu.png) no-repeat;
 }
 
 #forum h2 {
-	background: #FFFFFF url(http://static.anime-kita.dk/images/forum.png) no-repeat;
+	background: #FFFFFF url(http://static.anime-kita.dk/v2.1/images/forum.png) no-repeat;
 }
 
 #menu ul, #forum ul {
-	background: #FFFFFF url(http://static.anime-kita.dk/images/menu-bg.png) repeat-y;
+	background: #FFFFFF url(http://static.anime-kita.dk/v2.1/images/menu-bg.png) repeat-y;
 	width: 197px;
 	margin: 0 0 29px 0;
 	padding: 10px 0px 0px 0px;
@@ -88,7 +88,7 @@
 
 /** Content **/
 div.content {
-	background: url(http://static.anime-kita.dk/images/content-bottom.png) no-repeat bottom left;
+	background: url(http://static.anime-kita.dk/v2.1/images/content-bottom.png) no-repeat bottom left;
 	overflow: auto;
 }
 
@@ -96,12 +96,12 @@ div.content-inner {
 	margin-bottom: 23px;
 	margin-right: 2px;
 	text-align: justify;
-	background: #FFFFFF url(http://static.anime-kita.dk/images/content-side.png) repeat-y right;
+	background: #FFFFFF url(http://static.anime-kita.dk/v2.1/images/content-side.png) repeat-y right;
 	overflow: auto;
 }
 
 div.content h2 {
-	background: url(http://static.anime-kita.dk/images/content-top.png) no-repeat;
+	background: url(http://static.anime-kita.dk/v2.1/images/content-top.png) no-repeat;
 	padding: 14px 0 0 20px;
 }
 

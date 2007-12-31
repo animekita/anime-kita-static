@@ -6,7 +6,7 @@
  
  /** Banner **/
 #banner a {
-	background: url(http://static.anime-kita.dk/images/extra-banner.png) no-repeat;
+	background: url(http://static.anime-kita.dk/v2.1/images/extra-banner.png) no-repeat;
 	height: 109px;
 	display: block;
 	
@@ -20,13 +20,13 @@
 
 /** Container **/
 #container {
-	background: url(http://static.anime-kita.dk/images/extra-bg.png) repeat-y;
+	background: url(http://static.anime-kita.dk/v2.1/images/extra-bg.png) repeat-y;
 }
 
 #container-inner {
 	position: relative;
 	right: 1px; /** the container is 1px to wide, move the internal container to match the border **/
-	background: url(http://static.anime-kita.dk/images/extra-side-top.png) no-repeat top right;
+	background: url(http://static.anime-kita.dk/v2.1/images/extra-side-top.png) no-repeat top right;
 	overflow: auto;
 }
 
@@ -98,13 +98,13 @@
 /** Footer **/
 #footer {
 	padding-top: 23px;
-	background: url(http://static.anime-kita.dk/images/extra-bottom.png) no-repeat top left;
+	background: url(http://static.anime-kita.dk/v2.1/images/extra-bottom.png) no-repeat top left;
 }
 
 /** Breadcrumbs **/
 #breadcrumbs {
 	height: 27px;
-	background: url(http://static.anime-kita.dk/images/extra-bread.png) no-repeat;
+	background: url(http://static.anime-kita.dk/v2.1/images/extra-bread.png) no-repeat;
 }
 
 #breadcrumbs ul {
