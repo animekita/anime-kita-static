@@ -51,7 +51,7 @@ a.date-picker-control:focus
         display: -moz-inline-stack;
         border:0 none;
         padding:0;
-        margin:10px 0 0 4px;
+        margin:10px 0 0 0;
         background:transparent url(http://static.anime-kita.dk/images/date-picker/cal.gif) no-repeat 50% 50%;
         min-width:16px;
         line-height:1;
