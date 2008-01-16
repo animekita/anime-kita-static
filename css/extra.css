@@ -254,3 +254,13 @@ a.icon {
 a.icon img {
 	margin: 0;
 }
+
+/** Messages **/
+.warning {
+    background: #ffdfdf;
+    border: 1px solid #df7d7d;
+    border-width: 1px 0;
+    margin: 0 30px 1em 0px;
+    padding: 1em;
+    font-weight: bold;
+}
