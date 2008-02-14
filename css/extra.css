@@ -251,7 +251,7 @@ a.icon {
 	border: none;
 }
 
-a.icon img {
+a.icon img, img.icon {
 	margin: 0;
 }
 
