@@ -1,6 +1,6 @@
 <!-- ###TEMPLATE_FORM### begin -->
 ###ERROR###
-<form name="Formular" id="mailform" method="post" action="###REL_URL###" enctype="multipart/form-data">
+<form name="Formular" id="mailform" method="post" action="###REL_URL###" enctype="multipart/form-data" style="margin:0">
 <fieldset>
 	<legend>Kontaktformular</legend>
 	<input type="hidden" name="id" value="###PID###" />
