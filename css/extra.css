@@ -177,7 +177,7 @@
 }
 
 #content table td, #content table th {
-  	background:#f9f9f9;
+  	background:#f2f2f2;
   	border:1px dashed #ccc; border-width:1px 0 0 0;
 	padding: 0.4em 0 0.4em 7px;
 	font-weight: normal;
@@ -198,6 +198,16 @@
 }
 #content ul.table-options li a {
 	font-weight: normal;
+}
+
+#content table tr.item_low td {
+	font-style: italic;
+	background: #FFFFFF;
+	font-size: 0.8em;
+}
+
+#content table tr.item_high td {
+	font-weight: bold;
 }
 
 /** Messages **/
