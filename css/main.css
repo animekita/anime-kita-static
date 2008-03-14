@@ -3,12 +3,10 @@
 	background: url(http://static.anime-kita.dk/v2.1/images/banner.png) no-repeat;
 	height: 107px;
 	display: block;
-	
-    padding: 107px 0 0 0;
-    overflow: hidden;
-    height: 0px !important;
-    height /**/:107px;
-	
+	padding: 107px 0 0 0;
+   	overflow: hidden;
+	height: 0px !important;
+	height /**/:107px;	
 	border: none;
 }
 
@@ -36,11 +34,10 @@
 }
 
 #menu h2, #forum h2 {
-    padding: 37px 0 0 0;
-    overflow: hidden;
-    height: 0px !important;
-    height /**/:37px;
-	
+    	padding: 37px 0 0 0;
+    	overflow: hidden;
+    	height: 0px !important;
+    	height /**/:37px;
 	width: 197px;
 	margin: 0;
 }

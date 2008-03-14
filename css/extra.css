@@ -169,16 +169,20 @@
 }
 
 /** tables **/
+#content table, #content table td, #content table th {
+	border-color: #cccccc;
+	border-style: dashed;
+}
+
 #content table {
-  	border:1px dashed #ccc; border-width: 0 0 1px 0;
+	border-width:0 0 1px 0;
   	width: 485px;
-	background-color: black;
 	border-collapse: collapse; 
 }
 
 #content table td, #content table th {
   	background:#f2f2f2;
-  	border:1px dashed #ccc; border-width:1px 0 0 0;
+	border-width:1px 0 0 0;
 	padding: 0.4em 0 0.4em 7px;
 	font-weight: normal;
 }
