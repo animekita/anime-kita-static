@@ -40,7 +40,9 @@ compressed\/datepicker.css : datepicker.css
 	$(CSS_TIDY) datepicker.css $(CSS_TIDY_OPTIONS) compressed/datepicker.css
 
 compressed\/uni-form.css : uni-form.css
-	$(CSS_TIDY) uni-form.css $(CSS_TIDY_OPTIONS) compressed/uni-form.css
+	$(CSS_TIDY) uni-form.css $(CSS_TIDY_OPTIONS) compressed/uni-form.css.tmp
+	sed 's/uni-form-generic.css/"uni-form-generic.css"/' compressed/uni-form.css.tmp > compressed/uni-form.css
+	rm compressed/uni-form.css.tmp
 
 compressed\/uni-form-generic.css : uni-form-generic.css
 	$(CSS_TIDY) uni-form-generic.css $(CSS_TIDY_OPTIONS) compressed/uni-form-generic.css
