@@ -149,25 +149,6 @@
 	padding: 0;
 }
 
-/** Contact form **/
-#mailform {
-	margin: 0px;
-  	padding: 0px;
-}
-
-#mailform label {
-	display: block;
-}
-
-#mailform input, #mailform textarea {
-	width: 440px;
-	background-color: #FFFFFF;
-}
-
-#mailform input.mailform-submit {
-	width: auto;
-}
-
 /** tables **/
 #content table, #content table td, #content table th {
 	border-color: #cccccc;

@@ -14,6 +14,10 @@
     font-size: 1em;
 }
 
+.uniForm fieldset .textInput, .uniForm fieldset .textInputWide {
+    background-color: #FFFFFF;
+}
+
 .uniForm .ctrlHolder { /* This is the main unit that contains our form elements */
     padding: 7px;
 }
@@ -80,6 +84,11 @@
 /* .blockLabels */
 .uniForm .blockLabels .textInput, .uniForm .blockLabels .fileUpload {
     width: 53%; /* Required property */
+}
+
+/* .blockLabels */
+.uniForm .blockLabels .textInputWide {
+    width: 97%; /* Required property */
 }
 
 .uniForm .blockLabels .selectInput {
