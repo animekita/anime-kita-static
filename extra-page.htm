@@ -45,20 +45,37 @@
 				<p>Anime Kita er en anime forening med base i Aalborg, Nordjylland. Her er det medlemmerne der sætter dagsordenen, hvilket gør at alle kan nyde godt af hinandens ideer og engagement.</p>
 				<p>Vi bestræber os på at skabe et mere samlet miljø, hvor ligesindede personer kan dele deres interesser, gennem blandt andet vores forum og IRC kanal. Vi vil fire gange om året afholde træf, hvor det er muligt at underholde sig med hinandens selskab, samt deltage i forskellige konkurrencer og aktiviteter.</p>
 				<p class="warning">Derudover støtter vi også mindre arrangementer, med håb om at sætte vores præg på den danske anime scene i Nordjylland. Så hvad enten du er en rigtig ”otaku” eller først nu har fået øjnene op for den japanske popkultur, er alle interesserede velkomne til vores træf og møder.</p>
-				
-				<form name="Formular" id="mailform" method="post" action="###REL_URL###" enctype="multipart/form-data">
-        		<fieldset>
-                	<legend>Kontaktformular</legend>
-					<input type="hidden" name="id" value="###PID###" />
-					<input type="hidden" name="submitted" value="1" />
-					<input type="hidden" name="L" value="###value_L###" />
-					<input type="hidden" name="type" value="###value_type###" />
-					<label for="mailformEmne">Emne</label> <input type="text" name="Emne" id="mailformEmne" size="20" value="" class="title" />
-					<label for="mailformDin_email">Din email</label> <input type="text" name="Din_email" id="mailformDin_email" size="20" class="text" value="" />
-					<label for="mailformBesked">Besked</label> <textarea name="Besked" id="mailformBesked" cols="20" rows="5"></textarea>
-					<input type="submit" name="formtype_mail" id="mailformformtype_mail" value="Send email" class="mailform-submit" />
-				</fieldset>
-				</form>
+
+<form id="mailform" name="Formular" action="###REL_URL###" method="post" enctype="multipart/form-data" id="something" class="uniForm">
+<fieldset class="blockLabels">
+	<legend>Kontaktformular</legend>
+	<input type="hidden" name="id" value="###PID###" />
+	<input type="hidden" name="submitted" value="1" />
+	<input type="hidden" name="L" value="###value_L###" />
+	<input type="hidden" name="type" value="###value_type###" />
+<div class="ctrlHolder">
+  <label for="subject">Emne</label>
+  <input name="subject" maxlength="50" type="text" class="textInput title" id="subject" value="###value_subject###" />
+###error_subject###
+</div>
+<div class="ctrlHolder">
+  <label for="email">Din e-mail</label>
+  <input name="email" maxlength="80" type="text" class="textInput text" id="email "value="###value_email###" />
+###error_email###
+</div>
+<div class="ctrlHolder">
+    <label for="message">Besked</label>
+    <textarea id="message" class="textInputWide text" rows="10" cols="40" name="message"></textarea>
+###error_message###
+</div>
+</fieldset>
+
+<fieldset class="inlineLabels">
+<div class="buttonHolder">
+    <input type="submit" name="formtype_mail" id="mailformformtype_mail" value="Send email" class="submitButton" />
+</div>
+</fieldset>
+</form>
 				
 				<form action="/" method="post" enctype="multipart/form-data" id="something" class="uniForm">
 
