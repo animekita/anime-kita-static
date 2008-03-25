@@ -92,6 +92,7 @@ div.content {
 div.content-inner {
 	margin-bottom: 23px;
 	margin-right: 2px;
+	padding-bottom: 2px; /** Fix overflow error **/
 	text-align: justify;
 	background: #FFFFFF url(http://static.anime-kita.dk/v2.1/images/content-side.png) repeat-y right;
 	overflow: auto;
@@ -102,7 +103,7 @@ div.content h2 {
 	padding: 14px 0 0 20px;
 }
 
-div.content span.news-single-timedata {
+div.content span.news-single-timedata, div.content span.news-latest-date {
 	float: right;
 	margin-right: 30px;
 }
