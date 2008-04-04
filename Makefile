@@ -21,17 +21,19 @@ COMPRESSED=$(CSSC)default.css $(CSSC)main.css $(CSSC)extra.css $(CSSC)print.css 
 
 UNCOMPRESSED=$(CSS)default.css $(CSS)main.css $(CSS)extra.css $(CSS)print.css $(CSS)datepicker.css $(CSS)uni-form.css $(CSS)uni-form-generic.css
 
+FILES=default.css main.css extra.css print.css datepicker.css uni-form.css uni-form-generic.css
+
 CURURL=http://static.anime-kita.dk/v2.1/
 TARGETURL=https://selvbetjening.anime-kita.dk/static/
 
-compress : compressed-dir $(COMPRESSED)
+compress : compressed-dir $(FILES)
 
 compressed-dir :
 	if test ! -d $(CSS)compressed; then mkdir $(CSS)compressed; fi
 
-$(COMPRESSED) : $(UNCOMPRESSED)
-	$(CSS_TIDY) $? $(CSS_TIDY_OPTIONS) $@
-	sed -i 's|$(CURURL)|$(TARGETURL)|' $@
+$(FILES) : 
+	$(CSS_TIDY) $(CSS)$@ $(CSS_TIDY_OPTIONS) $(CSSC)$@
+	sed -i 's|$(CURURL)|$(TARGETURL)|' $(CSSC)$@
 
 clean :
 	@if test -d selvbetjening; then rm -R selvbetjening; fi
