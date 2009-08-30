@@ -1,0 +1,66 @@
+/**
+ * Anime Kita default styles
+ * $Revision$
+ * $Date$
+ **/
+
+body {
+	margin-top: 0;
+ 	font-family: Verdana, sans-serif;
+	color: #3E3E3E;
+	background-color: #E7E9E9;
+}
+
+div.modebar {
+	background-color: #2e3436;
+}
+
+div.modebar p, div.modebar a {
+	text-align: center;
+	margin: 0px;
+	color: #FFFFFF;
+}
+div.modebar p {
+	font-weight: bold;	
+}
+div.modebar a {
+	font-weight: normal;
+	margin: 0 0.4em 0 0.4em;
+}
+
+div.site {
+	background: #E7E9E9 url(http://static.anime-kita.dk/v2.1/images/bg-top.png) repeat-x;
+}
+ 
+h1, h2, h3, h4, h5, h6 { 
+	color: #3E3E3E;
+	font-family: Georgia, "Times New Roman", serif; 
+	letter-spacing: 1px;
+}
+
+h2 { 
+	font-size: 1.6em; 
+}
+
+p, li {
+	text-align: justify;
+}
+
+a {
+	text-decoration: none;
+	color: #3E3E3E;
+	font-weight: bold;
+	border-width: 0 0 1px 0;
+	border-color: #3E3E3E;
+	border-style: dotted;
+}
+
+h2 a {
+	border-style: none;
+	font-weight: normal;
+}
+
+/** Footer **/
+#footer {
+	text-align: center;
+}

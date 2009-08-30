@@ -1,0 +1,261 @@
+/**
+ * Anime Kita content page styles
+ * $Revision$
+ * $Date$
+ **/
+ 
+ /** Banner **/
+#banner a {
+	background: url(http://static.anime-kita.dk/v2.1/images/extra-banner.png) no-repeat;
+	height: 109px;
+	display: block;
+	
+    padding: 109px 0 0 0;
+    overflow: hidden;
+    height: 0px !important;
+    height /**/:109px;
+	
+	border: none;	
+}
+
+/** Container **/
+#container {
+	background: url(http://static.anime-kita.dk/v2.1/images/extra-bg.png) repeat-y;
+}
+
+#container-inner {
+	position: relative;
+	right: 1px; /** the container is 1px to wide, move the internal container to match the border **/
+	background: url(http://static.anime-kita.dk/v2.1/images/extra-side-top.png) no-repeat top right;
+	overflow: auto;
+}
+
+/** Content **/
+#content p, #content h2, #content h3, 
+#content h4, #content fieldset, #content table, 
+#content ul, #content span, #content dl,
+#content div.tx-rgsmoothgallery-pi1 {	
+	margin-right: 30px;
+}
+
+#content ul {
+	padding-left: 8px;
+	list-style: square;
+}
+
+#content ul li, #content ol li {
+	padding-bottom: 1em;
+}
+#content ul li ul, #content ul li ol, #content ol li ul, #content ol li ol {
+	margin-top: 1em;
+}
+#content ul li ul li, #content ul li ol li, #content ol li ul li, #content ol li ol li {
+	font-size: 1em;
+	padding-bottom: 1em;
+}
+
+#content h2 {
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+#content p {
+	margin-top: 0;
+}
+
+#content span.news-single-timedata {
+	float: right;
+}
+
+#content span.news-single-backlink {
+	float: left;
+}
+
+/** Menu **/
+#menu ul {
+	list-style: none;
+	padding: 0;
+	margin:  3.5em 0 10px 10px;
+}
+
+#menu ul li {
+	margin-left: 6px;
+	margin-right: 40px;
+	line-height: 2em;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	border: none;
+	font-weight: normal;
+	margin-left: 12px;
+}
+
+#menu ul li a:hover{
+	font-weight: bold;
+}
+
+/** Footer **/
+#footer {
+	padding-top: 23px;
+	background: url(http://static.anime-kita.dk/v2.1/images/extra-bottom.png) no-repeat top left;
+}
+
+/** Breadcrumbs **/
+#breadcrumbs {
+	height: 27px;
+	background: url(http://static.anime-kita.dk/v2.1/images/extra-bread.png) no-repeat;
+}
+
+#breadcrumbs ul {
+	background: 0;
+	list-style: none;
+	margin: 0 0 0 0;
+	padding: 0 20px 0 0 ;
+	float: right;
+}
+
+#breadcrumbs ul li {
+	display: inline;
+	margin: 0;
+}
+
+#breadcrumbs ul li a, #breadcrumbs ul li span {
+	margin: 0 5px 0 0;
+	line-height: 2.4em;
+	font-weight: normal;
+}
+
+/** Archive **/
+#content #archive {
+	padding: 0;
+}
+
+#content #archive li a {
+	border: 0;
+}
+#content #archive li {
+	list-style: none;
+	padding: 0;	
+}
+#content #archive li a span {
+	font-weight: normal;
+	margin: 0 10px 0 0;
+}
+
+/** Content links **/
+#content dd, #content dd p {
+	margin: 0;
+	padding: 0;
+}
+
+/** tables **/
+#content table, #content table td, #content table th {
+	border-color: #cccccc;
+	border-style: dashed;
+}
+
+#content table {
+	border-width:0 0 1px 0;
+  	width: 485px;
+	border-collapse: collapse; 
+}
+
+#content table td, #content table th {
+  	background:#f2f2f2;
+	border-width:1px 0 0 0;
+	padding: 0.4em 0 0.4em 7px;
+	font-weight: normal;
+}
+
+#content table.vertical th {
+	width: 45%;
+}
+
+#content ul.table-options {
+	list-style-type: none;
+	padding: 0;
+}
+#content ul.table-options li {
+	display: inline;
+	margin: 0 10px 0 10px;
+	padding: 0px;
+}
+#content ul.table-options li a {
+	font-weight: normal;
+}
+
+#content table tr.item_low td {
+	font-style: italic;
+	background: #FFFFFF;
+	font-size: 0.8em;
+}
+
+#content table tr.item_high td {
+	font-weight: bold;
+}
+
+/** Messages **/
+#content #messages {
+	background-color: #729fcf;
+	list-style: none;
+	padding: 0;
+	margin-left: 0;
+	overflow: auto;
+	border: solid #2e3436;
+	border-width: 1px 0 1px 0;
+}
+#content #messages li {
+	margin: 5px 10px 5px 10px;
+	font-weight: bold;
+	padding: 0;
+	
+}
+
+/** Gallery **/
+#content div.tx-rgsmoothgallery-pi1 {
+	margin-bottom: 10px;
+	margin-left: 33px;
+}
+
+/** Regulations **/
+div.regulations dl {
+	margin-left: 20px;
+}
+
+div.regulations dt {
+	float: left;
+	font-weight: bold;
+	font-style: italic;
+	margin-right: 20px;
+}
+
+div.regulations dd {
+	text-align: justify;
+	margin-top: 20px;
+}
+
+div.regulations dd ol {
+	margin-top: 1em;
+	margin-left: 40px;
+	margin-bottom: 1em;
+}
+
+/** Icons **/
+a.icon {
+	border: none;
+}
+
+a.icon img, img.icon {
+	margin: 0;
+}
+
+/** Messages **/
+.warning {
+    background: #ffdfdf;
+    border: 1px solid #df7d7d;
+    border-width: 1px 0;
+    margin: 0 30px 1em 0px;
+    padding: 1em;
+    font-weight: bold;
+}
