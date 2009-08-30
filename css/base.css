@@ -1,0 +1,163 @@
+/* Default settings for inheritances. */
+html {
+    /* Remove disabled vertical scrollbar in IE7 */
+    overflow:auto;
+
+    height:100%;
+
+    font-family:verdana, tahoma, arial, sans-serif;
+    font-size:14px;
+    color:#fff;
+}
+
+p {
+    color:#484848;
+    margin:12px 0;
+}
+
+h1 {
+    margin:2px 0 6px;
+    font-size:48px;
+    line-height:48px;
+    color:#36a0e3;
+}
+
+h2 {
+    font-size:14px;
+    margin:2px 0 6px 10px;
+    color:#2a86c1;
+    text-transform:uppercase;
+}
+
+/* HTML body start */
+
+body {
+    height:100%;
+    background:url('/style/graphics/bodybg.png') repeat-x top left;
+}
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -40px; /* the bottom margin is the negative value of the footer's height */
+}
+
+#topNavBg {
+    position:absolute;
+
+    width:50%;
+    height:39px;
+    top:62px;
+    left:50%;
+
+    background:url('/style/graphics/topnavbg.png') repeat-x;
+}
+
+/* Top start */
+#top {
+    position:relative;
+    margin:0 auto;
+
+    height:155px;
+    width:850px;
+}
+
+#topLogo {
+    margin:20px 0 0 0;
+    float:left;
+}
+
+#topNavBgFade {
+    float:left;
+
+    margin:62px 0 0 0;
+
+    width:80px;
+    height:39px;
+
+    background:url('/style/graphics/topnavbgfade.png') no-repeat;
+}
+
+#topNav {
+    float:left;
+    margin:62px 0 0 0;
+
+    background:url('/style/graphics/topnavbg.png') repeat-x;
+
+    line-height:39px;
+    font-size:14px;
+}
+
+#topNav li {
+    display:inline;
+    margin:0 15px;
+
+}
+
+#topNav li a {
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+#topNav a.current {
+    background:url('/style/graphics/topnavcurrent.png') repeat-x bottom;
+}
+
+#topUserNav {
+    position:absolute;
+
+    top:115px;
+    right:30px;
+
+    font-size:12px;
+    font-family:tahoma, verdana, arial;
+}
+
+#topUserNav a {
+    color:#fff;
+    text-decoration:underline;
+}
+
+/* Top end */
+
+
+#footer {
+    height:40px;
+    background:url('/style/graphics/footerbg.png') repeat-x;
+    line-height:40px;
+    text-align:center;
+    font-size:12px;
+}
+
+#footerFix {
+    height:40px;
+}
+
+#footer a {
+    color:#fff;
+    text-decoration:none;
+}
+
+/* HTML body end */
+
+/* Common classes start */
+
+.vertSeperatorTiny {
+    margin:0px 3px;
+}
+
+.vertSeperatorSmall {
+    margin:0px 5px;
+}
+
+.vertSeperatorMedium {
+    margin:0px 10px;
+}
+
+.floatLeft {
+    float:left;
+}
+
+/* Common classes end */

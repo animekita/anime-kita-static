@@ -1,0 +1,130 @@
+
+/* Mid wrapper start */
+
+#mid {
+    width:860px;
+    margin:35px auto 0;
+    overflow:auto;
+}
+
+/* Left sidebar start */
+
+#midLeft {
+    float:left;
+
+    width:156px;
+    min-height:351px;
+
+    margin:45px 0 0 0;
+
+    background:url('/style/graphics/midleftseperator.png') no-repeat 100% 0;
+}
+
+/* Left navigation start */
+
+#leftNav li {
+    margin:6px 0 6px;
+}
+
+#leftNav a {
+    padding:0 0 0 10px;
+    color:#414141;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:13px;
+}
+
+#leftNav a.current {
+    background:url('/style/graphics/leftnavcurrent.png') no-repeat 0px 4px;
+}
+
+/* Left navigation end */
+
+/* Left newsletter signup start */
+
+#leftNewsletter {
+    margin:50px 0 0 10px;
+}
+
+#leftNewsletter h2 {
+    margin-left:0px;
+}
+
+#leftNewsletter .inputTxt {
+    width:122px;
+    height:22px;
+
+    padding:3px 10px 1px 2px;
+    background:url('/style/graphics/leftnewsletterinput.png') no-repeat;
+}
+
+#leftNewsletter .inputTxt input {
+    width:117px;
+    height:18px;
+    line-height:18px;
+
+    color:#626262;
+
+    border:none;
+    background:none;
+}
+
+#leftNewsletter .inputSubmit input {
+    width:44px;
+    height:20px;
+
+    padding:0;
+    border:none;
+    background:url('/style/graphics/leftnewsletterbutton.png') no-repeat;
+}
+
+/* Left newsletter signup end */
+
+#kitaKanji {
+    width:145px;
+    height:138px;
+
+    margin:120px 0 0 10px;
+
+    background:url('/style/graphics/kitakanjitransparent.png') no-repeat;
+}
+
+/* Left sidebar end */
+
+/* Content wrapper start */
+
+#midContent {
+    float:left;
+    width:667px;
+    padding:10px 0 0 37px;
+    color:#484848;
+    line-height:17px;
+}
+
+#midContent a {
+    color:#36a0e2;
+    text-decoration:underline;
+}
+
+#midContent a.specialLink {
+    padding:0 0 0 17px;
+    margin:10px 0 10px 6px;
+
+    display:block;
+
+    font-family:Times;
+
+    text-decoration:underline;
+    color:#549ecc;
+    background:url('/style/graphics/linkarrow.png') no-repeat 0px 5px;
+}
+
+#midContent #midSlideshow {
+    padding:2px;
+    border:1px solid #c8c8c8;
+    margin:0 0 10px 0;
+}
+
+/* Content wrapper end */
+
+/* Mid wrapper end */
