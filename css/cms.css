@@ -17,7 +17,7 @@
 
     margin:45px 0 0 0;
 
-    background:url('/style/graphics/midleftseperator.png') no-repeat 100% 0;
+    background:url('../graphics/midleftseperator.png') no-repeat 100% 0;
 }
 
 /* Left navigation start */
@@ -35,7 +35,7 @@
 }
 
 #leftNav a.current {
-    background:url('/style/graphics/leftnavcurrent.png') no-repeat 0px 4px;
+    background:url('../graphics/leftnavcurrent.png') no-repeat 0px 4px;
 }
 
 /* Left navigation end */
@@ -55,7 +55,7 @@
     height:22px;
 
     padding:3px 10px 1px 2px;
-    background:url('/style/graphics/leftnewsletterinput.png') no-repeat;
+    background:url('../graphics/leftnewsletterinput.png') no-repeat;
 }
 
 #leftNewsletter .inputTxt input {
@@ -75,7 +75,7 @@
 
     padding:0;
     border:none;
-    background:url('/style/graphics/leftnewsletterbutton.png') no-repeat;
+    background:url('../graphics/leftnewsletterbutton.png') no-repeat;
 }
 
 /* Left newsletter signup end */
@@ -86,7 +86,7 @@
 
     margin:120px 0 0 10px;
 
-    background:url('/style/graphics/kitakanjitransparent.png') no-repeat;
+    background:url('../graphics/kitakanjitransparent.png') no-repeat;
 }
 
 /* Left sidebar end */
@@ -116,7 +116,7 @@
 
     text-decoration:underline;
     color:#549ecc;
-    background:url('/style/graphics/linkarrow.png') no-repeat 0px 5px;
+    background:url('../graphics/linkarrow.png') no-repeat 0px 5px;
 }
 
 #midContent #midSlideshow {

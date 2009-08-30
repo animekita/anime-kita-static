@@ -33,7 +33,7 @@ h2 {
 
 body {
     height:100%;
-    background:url('/style/graphics/bodybg.png') repeat-x top left;
+    background:url('../graphics/bodybg.png') repeat-x top left;
 }
 
 #wrapper {
@@ -51,7 +51,7 @@ body {
     top:62px;
     left:50%;
 
-    background:url('/style/graphics/topnavbg.png') repeat-x;
+    background:url('../graphics/topnavbg.png') repeat-x;
 }
 
 /* Top start */
@@ -76,14 +76,14 @@ body {
     width:80px;
     height:39px;
 
-    background:url('/style/graphics/topnavbgfade.png') no-repeat;
+    background:url('../graphics/topnavbgfade.png') no-repeat;
 }
 
 #topNav {
     float:left;
     margin:62px 0 0 0;
 
-    background:url('/style/graphics/topnavbg.png') repeat-x;
+    background:url('../graphics/topnavbg.png') repeat-x;
 
     line-height:39px;
     font-size:14px;
@@ -102,7 +102,7 @@ body {
 }
 
 #topNav a.current {
-    background:url('/style/graphics/topnavcurrent.png') repeat-x bottom;
+    background:url('../graphics/topnavcurrent.png') repeat-x bottom;
 }
 
 #topUserNav {
@@ -125,7 +125,7 @@ body {
 
 #footer {
     height:40px;
-    background:url('/style/graphics/footerbg.png') repeat-x;
+    background:url('../graphics/footerbg.png') repeat-x;
     line-height:40px;
     text-align:center;
     font-size:12px;
