@@ -7,26 +7,27 @@ html {
 
     font-family:verdana, tahoma, arial, sans-serif;
     font-size:14px;
-    color:#fff;
+    color:#484848;
 }
 
 p {
     color:#484848;
     margin:12px 0;
+    text-align: justify;
 }
 
 h1 {
     margin:2px 0 6px;
-    font-size:48px;
+    font-size:28px;
     line-height:48px;
-    color:#36a0e3;
+    color:#36a0e3; 
 }
 
 h2 {
     font-size:14px;
-    margin:2px 0 6px 10px;
+    margin:2px 0 6px;
     color:#2a86c1;
-    text-transform:uppercase;
+    text-transform:uppercase; 
 }
 
 /* HTML body start */
@@ -60,7 +61,7 @@ body {
     margin:0 auto;
 
     height:155px;
-    width:850px;
+    width:860px;
 }
 
 #topLogo {
@@ -80,9 +81,9 @@ body {
 }
 
 #topNav {
-    float:left;
+    float:right;
     margin:62px 0 0 0;
-
+    
     background:url('../graphics/topnavbg.png') repeat-x;
 
     line-height:39px;
@@ -91,8 +92,7 @@ body {
 
 #topNav li {
     display:inline;
-    margin:0 15px;
-
+    margin:0 0 0 15px;
 }
 
 #topNav li a {
@@ -106,11 +106,9 @@ body {
 }
 
 #topUserNav {
-    position:absolute;
-
-    top:115px;
-    right:30px;
-
+    float:right;
+    clear: right;
+    margin-top: 12px;
     font-size:12px;
     font-family:tahoma, verdana, arial;
 }
@@ -133,6 +131,7 @@ body {
 
 #footerFix {
     height:40px;
+    clear:left;
 }
 
 #footer a {

@@ -1,10 +1,41 @@
+/* Concrete5 changes start */
+
+body {
+    margin:0px 0px 0px 0px !important;
+}
+
+#ccm-page-controls {
+    display: none;
+}
+
+div#ccm-page-detail {
+	top: 0px;
+}
+
+/* Page controls start */
+
+#pageControls a {
+    color:#414141;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:13px;
+}
+
+#pageControls ul {
+    float: right;
+}
+
+#pageControls ul li {
+    display:inline;
+    margin-left: 15px;
+}
 
 /* Mid wrapper start */
 
-#mid {
+#mid, #pageControls {
     width:860px;
-    margin:35px auto 0;
-    overflow:auto;
+    margin:10px auto 0;
+    
 }
 
 /* Left sidebar start */
@@ -20,13 +51,17 @@
     background:url('../graphics/midleftseperator.png') no-repeat 100% 0;
 }
 
+#midLeft h2 {
+    margin:2px 0 6px 10px;
+}
+
 /* Left navigation start */
 
-#leftNav li {
+.leftNav li {
     margin:6px 0 6px;
 }
 
-#leftNav a {
+.leftNav a {
     padding:0 0 0 10px;
     color:#414141;
     text-decoration:none;
@@ -34,9 +69,14 @@
     font-size:13px;
 }
 
-#leftNav a.current {
+.leftNav a.current {
     background:url('../graphics/leftnavcurrent.png') no-repeat 0px 4px;
 }
+
+.leftNav ul {
+    margin-left:10px;
+}
+
 
 /* Left navigation end */
 
@@ -95,8 +135,8 @@
 
 #midContent {
     float:left;
-    width:667px;
-    padding:10px 0 0 37px;
+    width:670px; 
+    margin:10px 0 0 34px;
     color:#484848;
     line-height:17px;
 }
