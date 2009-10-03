@@ -159,6 +159,34 @@ div#ccm-page-detail {
     background:url('../graphics/linkarrow.png') no-repeat 0px 5px;
 }
 
+#midContent table {
+    margin-bottom: 1em;
+}
+
+#midContent td {
+    padding-right: 20px;
+}
+
+#midContent thead td {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#midContent tbody td {
+    padding-bottom: 2px;
+}
+
+#midContent tbody tr:nth-last-of-type(1) td {
+    padding-bottom: 5px;
+}
+
+#midContent table {
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #000000;
+}
+
 #midContent #midSlideshow {
     padding:2px;
     border:1px solid #c8c8c8;
