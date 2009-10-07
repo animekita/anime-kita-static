@@ -61,6 +61,10 @@ div#ccm-page-detail {
     margin: 10px 0 30px 10px;
 }
 
+.leftNav ul {
+    margin-left: 10px;
+}
+
 .leftNav li {
     margin:6px 0 6px;
 }
