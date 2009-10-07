@@ -57,6 +57,10 @@ div#ccm-page-detail {
 
 /* Left navigation start */
 
+.leftNav {
+    margin: 10px 0 30px 10px;
+}
+
 .leftNav li {
     margin:6px 0 6px;
 }
@@ -71,10 +75,6 @@ div#ccm-page-detail {
 
 .leftNav a.current {
     background:url('../graphics/leftnavcurrent.png') no-repeat 0px 4px;
-}
-
-.leftNav ul {
-    margin-left:10px;
 }
 
 
