@@ -1,0 +1,18 @@
+#menu {
+  padding: 0 1em 1em 1em;
+  background-color: #eeeeec;
+  float: left;
+}
+
+#menu ul  {
+  padding-left: 0.8em;
+}
+
+#menu li {
+  list-style: none;
+  font-size: 1.2em;
+}
+
+#content-wrapper {
+  overflow: auto;
+}
