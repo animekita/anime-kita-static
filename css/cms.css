@@ -53,6 +53,8 @@ div#ccm-page-detail {
 
 #midLeft h2 {
     margin:2px 0 6px 10px;
+	font-size: 14px;
+	text-transform:uppercase;
 }
 
 /* Left navigation start */
@@ -186,11 +188,12 @@ div#ccm-page-detail {
 	font-size: 0.9em;
 }
 
-#midContent table td, #midContent table td th {
+#midContent table td, #midContent table th {
     border-color: #cccccc;
     border-style: solid;
     border-width: 1px 0 1px 0;
 	padding:.4em 1em .4em 7px;
+	text-align: left;
 }
 
 #midContent thead td {

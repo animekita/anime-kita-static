@@ -19,20 +19,23 @@ p {
 h1, h2, h3, h4, h5, h6 {
     font-family:Georgia, "Times New Roman", serif;
     letter-spacing:1px;
+    color:#2780B9;
+    margin:10px 0 6px 0;
 }
 
 h1 {
     margin:2px 0 6px;
     font-size:28px;
     line-height:48px;
-    color:#36a0e3;
 }
 
 h2 {
-    font-size:14px;
-    margin:10px 0 6px;
-    color:#2a86c1;
-    text-transform:uppercase;
+    font-size:20px;
+}
+
+
+h3 {
+    font-size:16px;
 }
 
 /* HTML body start */
