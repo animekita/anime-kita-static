@@ -43,7 +43,7 @@ div#ccm-page-detail {
 #midLeft {
     float:left;
 
-    width:156px;
+    width:176px;
     min-height:351px;
 
     margin:45px 0 0 0;
@@ -141,7 +141,7 @@ div#ccm-page-detail {
 
 #midContent {
     float:left;
-    width:670px;
+    width:650px;
     margin:10px 0 0 34px;
     color:#484848;
     line-height:17px;
