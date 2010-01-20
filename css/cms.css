@@ -223,15 +223,13 @@ dl {
 }
 
 dt {
-	float: left;
 	font-weight: bold;
 	font-style: italic;
-	margin-right: 20px;
+    margin-top: 10px;
 }
 
 dd {
 	text-align: justify;
-	margin-top: 20px;
 }
 
 dd ol {
