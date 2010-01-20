@@ -16,18 +16,23 @@ p {
     text-align: justify;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family:Georgia, "Times New Roman", serif;
+    letter-spacing:1px;
+}
+
 h1 {
     margin:2px 0 6px;
     font-size:28px;
     line-height:48px;
-    color:#36a0e3; 
+    color:#36a0e3;
 }
 
 h2 {
     font-size:14px;
     margin:10px 0 6px;
     color:#2a86c1;
-    text-transform:uppercase; 
+    text-transform:uppercase;
 }
 
 /* HTML body start */
@@ -83,7 +88,7 @@ body {
 #topNav {
     float:right;
     margin:62px 0 0 0;
-    
+
     background:url('../graphics/topnavbg.png') repeat-x;
 
     line-height:39px;

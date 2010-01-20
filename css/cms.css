@@ -35,7 +35,7 @@ div#ccm-page-detail {
 #mid, #pageControls {
     width:860px;
     margin:10px auto 0;
-    
+
 }
 
 /* Left sidebar start */
@@ -139,7 +139,7 @@ div#ccm-page-detail {
 
 #midContent {
     float:left;
-    width:670px; 
+    width:670px;
     margin:10px 0 0 34px;
     color:#484848;
     line-height:17px;
@@ -168,12 +168,29 @@ div#ccm-page-detail {
     background:url('../graphics/linkarrow.png') no-repeat 0px 5px;
 }
 
-#midContent table {
-    margin-bottom: 1em;
+#midContent #midSlideshow {
+    padding:2px;
+    border:1px solid #c8c8c8;
+    margin:0 0 10px 0;
 }
 
-#midContent td {
-    padding-right: 20px;
+/* Content wrapper end */
+
+/* Mid wrapper end */
+
+/* Tables start */
+
+#midContent table {
+    margin-bottom: 1em;
+	background: #f2f2f2;
+	font-size: 0.9em;
+}
+
+#midContent table td, #midContent table td th {
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px 0 1px 0;
+	padding:.4em 1em .4em 7px;
 }
 
 #midContent thead td {
@@ -190,18 +207,4 @@ div#ccm-page-detail {
     padding-bottom: 5px;
 }
 
-#midContent table {
-    border-width: 1px 0 1px 0;
-    border-style: solid;
-    border-color: #000000;
-}
-
-#midContent #midSlideshow {
-    padding:2px;
-    border:1px solid #c8c8c8;
-    margin:0 0 10px 0;
-}
-
-/* Content wrapper end */
-
-/* Mid wrapper end */
+/* Tables end */
