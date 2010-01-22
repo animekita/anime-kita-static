@@ -152,6 +152,11 @@ div#ccm-page-detail {
     margin-left: 1.4em;
 }
 
+#midContent ul.table-options li {
+	list-style-type:none;
+	margin:3px 10px;
+}
+
 #midContent ol li {
     list-style-type: decimal;
 }
