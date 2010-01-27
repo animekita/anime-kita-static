@@ -2,40 +2,48 @@
 html {
     /* Remove disabled vertical scrollbar in IE7 */
     overflow:auto;
-
     height:100%;
-
-    font-family:verdana, tahoma, arial, sans-serif;
-    font-size:14px;
     color:#2e3436;
+}
+
+h1, h2, h3, h4 {
+    font-family:Georgia, "Times New Roman", serif;
+    color:#105A89;
+}
+
+h1{
+    font-size: 3em;
+    margin:1em 0 0.75em;
+}
+h2{
+    font-size: 2em;
+    margin:1em 0 1em;
+}
+h3{
+    font-size: 1.5em;
+    margin:1em 0 1.285em;
+}
+h4{
+    font-size: 1.1666em;
+    margin:1em 0 1.5em;
 }
 
 p {
-    color:#2e3436;
-    margin:12px 0;
-    text-align: justify;
+    line-height:1.4em;
+    margin:0;
+    padding:0 0.25em 1em 0.25em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family:Georgia, "Times New Roman", serif;
-    letter-spacing:1px;
-    color:#2780B9;
-    margin:10px 0 6px 0;
+li, p, fieldset {
+    font-size: 1.2em;
 }
 
-h1 {
-    margin:2px 0 6px;
-    font-size:28px;
-    line-height:48px;
+table {
+    font-size: 1.1em;
 }
 
-h2 {
-    font-size:20px;
-}
-
-
-h3 {
-    font-size:16px;
+li li {
+    font-size: 100%; /* Force all nested elements to keep the same size */
 }
 
 /* HTML body start */
@@ -145,7 +153,6 @@ body {
 
 #footer a {
     color:#2e3436;
-    text-decoration:none;
 }
 
 /* HTML body end */

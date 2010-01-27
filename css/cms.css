@@ -53,8 +53,8 @@ div#ccm-page-detail {
 
 #midLeft h2 {
     margin:2px 0 6px 10px;
-	font-size: 14px;
-	text-transform:uppercase;
+    font-size: 1.1666em;
+    text-transform:uppercase;
 }
 
 /* Left navigation start */
@@ -69,20 +69,23 @@ div#ccm-page-detail {
 
 .leftNav li {
     margin:6px 0 6px;
+    list-style: none;
+    font-size: 1.2em;
+}
+.leftNav li li {
+    padding-left: 0.5em;
+    font-size: 0.9em;
 }
 
 .leftNav a {
     padding:0 0 0 10px;
-    color:#414141;
+    color:#2e3436;
     text-decoration:none;
-    font-weight:bold;
-    font-size:13px;
 }
 
 .leftNav a.current {
     background:url('../graphics/leftnavcurrent.png') no-repeat 0px 4px;
 }
-
 
 /* Left navigation end */
 
@@ -193,16 +196,15 @@ div#ccm-page-detail {
 
 #midContent table {
     margin-bottom: 1em;
-	background: #f2f2f2;
-	font-size: 0.9em;
+    background: #f2f2f2;
 }
 
 #midContent table td, #midContent table th {
     border-color: #cccccc;
     border-style: solid;
     border-width: 1px 0 1px 0;
-	padding:.4em 1em .4em 7px;
-	text-align: left;
+    padding:.4em 1em .4em 7px;
+    text-align: left;
 }
 
 #midContent thead td {
@@ -224,23 +226,23 @@ div#ccm-page-detail {
 /* Rules start */
 
 dl {
-	margin-left: 20px;
+    margin-left: 20px;
 }
 
 dt {
-	font-weight: bold;
-	font-style: italic;
+    font-weight: bold;
+    font-style: italic;
     margin-top: 10px;
 }
 
 dd {
-	text-align: justify;
+    text-align: justify;
 }
 
 dd ol {
-	margin-top: 1em;
-	margin-left: 40px;
-	margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 40px;
+    margin-bottom: 1em;
 }
 
 /* Rules end */
