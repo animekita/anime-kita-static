@@ -35,6 +35,7 @@ div#ccm-page-detail {
 #mid, #pageControls {
     width:860px;
     margin:10px auto 0;
+    height: 2.3em;
 
 }
 
@@ -46,7 +47,7 @@ div#ccm-page-detail {
     width:176px;
     min-height:351px;
 
-    margin:45px 0 0 0;
+    margin:15px 0 0 0;
 
     background:url('../graphics/midleftseperator.png') no-repeat 100% 0;
 }
