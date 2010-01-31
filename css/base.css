@@ -180,4 +180,8 @@ body {
     float:left;
 }
 
+.notice {
+    border-color: #105A89;
+}
+
 /* Common classes end */
