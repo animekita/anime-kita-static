@@ -6,6 +6,11 @@ html {
     color:#2e3436;
 }
 
+/* Fix borders in firefox on images with links */
+a, img {
+    border: none;
+}
+
 h1, h2, h3, h4 {
     font-family:Georgia, "Times New Roman", serif;
     color:#105A89;
