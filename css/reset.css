@@ -109,7 +109,7 @@ ins{
 	text-decoration:overline;
 }
 ol{
-	list-style:inside decimal;
+	list-style:decimal;
 }
 p{
 	font-weight:300;
@@ -137,11 +137,14 @@ strong,b{
 	font-weight:700;
 }
 ul{
-	list-style:inside disc;
+	list-style:disc;
 }
 ul,ol{
 	margin:0 0 1.5em;
 	padding:0;
+}
+li {
+	margin-bottom: 0.4em;
 }
 li ul,li ol{
 	margin:0;

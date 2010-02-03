@@ -14,6 +14,7 @@ a, img {
 h1, h2, h3, h4 {
     font-family:Georgia, "Times New Roman", serif;
     color:#105A89;
+    line-height: 1em;
 }
 
 h1{
