@@ -6,36 +6,36 @@
   /* Generals */
   .uniForm fieldset{}
     .uniForm fieldset legend{ color: #333; font-weight: bold; font-size: 100%; margin: 0; padding: 1.5em 0; }
-    
+
     /* This is the main unit that contains our form elements */
     .uniForm .ctrlHolder{ padding: 7px; border-bottom: 1px solid #dfdfdf; }
-    
+
     .uniForm .buttonHolder{ text-align: right; }
       .uniForm .resetButton{ float: left; }
       .uniForm .primaryAction{ font-weight: bold; }
-    
+
     /* This class gets added to div.ctrlHolder to highlight the row */
     .uniForm .focused{ background: #fffcdf; }
-      
+
       /* .inlineLabel is used for inputs within labels - checkboxes and radio buttons */
       .uniForm .inlineLabel input,
       .uniForm .inlineLabels .inlineLabel input,
       .uniForm .blockLabels .inlineLabel input{ float: left; margin: 0 .4em 0 0; }
         .uniForm .inlineLabel span{ float: left; width: 90%; }
-        
+
 /* ------------------------------------------------------------------------------ */
 
     /* .blockLabels (default style, will be applied even if you don't class the parent element) */
     .uniForm .blockLabels .ctrlHolder{}
-      
+
       .uniForm label,
       .uniForm .blockLabels label,
       .uniForm .blockLabels .label{ margin: 0 0 .5em 0; }
-      
+
       .uniForm .textInput,
       .uniForm .blockLabels .textInput,
       .uniForm .blockLabels .fileUpload{ width: 53%; /* <- Required property */ }
-    
+
       .uniForm .selectInput,
       .uniForm select,
       .uniForm .blockLabels .selectInput,
@@ -45,7 +45,7 @@
 
       .uniForm .formHint,
       .uniForm .blockLabels .formHint{ width: 45%; /* <- Required property */ font-size: .9em; color: #777; position: relative; top: -.5em; }
-      
+
       .uniForm .multiField,
       .uniForm .blockLabels .multiField{ width: 53%; }
         .uniForm .multiField .inlineLabel,
@@ -63,20 +63,20 @@
 
     /* .inlineLabels */
     .uniForm .inlineLabels .ctrlHolder{}
-    
+
     .uniForm .inlineLabels label,
     .uniForm .inlineLabels .label{ width: 45%; /* <- Required property */ margin: .3em 2% 0 0; /* <- Required property */ }
-    
+
     .uniForm .inlineLabels .textInput,
     .uniForm .inlineLabels .fileUpload{ width: 45%; /* <- Required property */ }
-    
+
     .uniForm .inlineLabels .selectInput,
     .uniForm .inlineLabels select{ width: 45%; /* <- Required property */ }
-    
+
     .uniForm .inlineLabels textarea{  width: 45%; /* <- Required property */ height: 12em; }
 
     .uniForm .inlineLabels .formHint{ margin-top: 0; margin-left: 47%; font-size: .9em; color: #777; position: static; }
-    
+
     .uniForm .inlineLabels .multiField{ width: 45%; /* <- Required property */ margin: 0 0 .3em 0; }
       .uniForm .inlineLabels .multiField .inlineLabel{ display: block; margin: 0 0 .5em 0; }
       .uniForm .inlineLabels .multiField .blockLabel{ float: left; width: 26%; margin: 0 3% 0 0; }
@@ -109,9 +109,9 @@
   .uniForm #OKMsg p{ margin: 0; }
 
 /*
-IT IS STRONGLY ADVISED TO MAKE YOUR CHANGES AFTER THIS COMMENT BY REPEATING (COPYING) THE SELECTOR FROM ABOVE, 
-AND MODIFYING IT WITH YOUR OWN PROPERTIES/VALUES. THIS IS RECOMMENDED BECAUSE IF YOU HAPPEN TO RUN INTO TROUBLE, 
-YOU CAN VERY EASILY REVERT TO A GENERIC STYLE OF UNI-FORM. BEST OF LUCK... 
+IT IS STRONGLY ADVISED TO MAKE YOUR CHANGES AFTER THIS COMMENT BY REPEATING (COPYING) THE SELECTOR FROM ABOVE,
+AND MODIFYING IT WITH YOUR OWN PROPERTIES/VALUES. THIS IS RECOMMENDED BECAUSE IF YOU HAPPEN TO RUN INTO TROUBLE,
+YOU CAN VERY EASILY REVERT TO A GENERIC STYLE OF UNI-FORM. BEST OF LUCK...
 */
 
 /* ------------------------------------------------------------------------------ */
@@ -142,4 +142,11 @@ background:none repeat scroll 0 0 #F9F9F9;
 
 .uniForm select {
 	padding:5px 3px;
+}
+
+.formRow {
+	margin-bottom: 1em;
+	border-width: 0 0 1px 0;
+	border-color:#CCCCCC;
+	border-style:solid;
 }

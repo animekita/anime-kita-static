@@ -43,12 +43,9 @@ div#ccm-page-detail {
 
 #midLeft {
     float:left;
-
     width:176px;
     min-height:351px;
-
     margin:15px 0 0 0;
-
     background:url('../graphics/midleftseperator.png') no-repeat 100% 0;
 }
 
@@ -247,3 +244,56 @@ dd ol {
 }
 
 /* Rules end */
+
+/* Profile page */
+
+#profile-info {
+  float: left;
+  margin-right: 1em;
+}
+
+#profile-image {
+  float: right;
+  overflow: auto;
+  background-color: #F2F2F2;
+  border: #CCCCCC solid 1px;
+  width: 280px;
+}
+
+#profile-image img {
+  margin: 10px auto 10px auto;
+  max-width: 260px;
+  display: block;
+}
+
+#profile-achivements {
+  clear: both;
+}
+
+#profile-matrix {
+  width: 340px;
+}
+
+#profile-matrix th {
+  font-weight: normal;
+  vertical-align: top;
+}
+
+#profile-matrix .pause {
+  background-color: #FFFFFF;
+}
+
+.profile-achivement	{
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 0 0 0.5em 0;
+}
+
+.profile-achivement img	{
+  margin-right: 1em;
+}
+
+.profile-achivement-comment {
+  font-size: 0.8em;
+  font-style: italic;
+}
