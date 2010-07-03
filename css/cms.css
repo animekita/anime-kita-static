@@ -253,11 +253,14 @@ dd ol {
 }
 
 #profile-image {
-  float: right;
   overflow: auto;
   background-color: #F2F2F2;
   border: #CCCCCC solid 1px;
   width: 280px;
+}
+
+#profile-image.right {
+  float: right;
 }
 
 #profile-image img {
