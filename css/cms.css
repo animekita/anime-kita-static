@@ -12,27 +12,30 @@ div#ccm-page-detail {
 	top: 0px;
 }
 
-/* Page controls start */
+/* Page controls and breadcrumbs start */
 
-#pageControls a {
+#topContent {
+    font-size:13px;
+}
+
+#topContent a {
     color:#414141;
     text-decoration:none;
     font-weight:bold;
-    font-size:13px;
 }
 
 #pageControls ul {
     float: right;
 }
 
-#pageControls ul li {
+#topContent ul li {
     display:inline;
     margin-left: 15px;
 }
 
 /* Mid wrapper start */
 
-#mid, #pageControls {
+#mid, #topContent {
     width:860px;
     margin:10px auto 0;
     height: 2.3em;

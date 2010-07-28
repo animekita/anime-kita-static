@@ -181,8 +181,18 @@ body {
     float:left;
 }
 
+.error, .warning, .success, .notice {
+	border-width:  1px 0 1px 0;
+	margin:0em 0em 2em 0em;
+}
+
 .notice {
     border-color: #105A89;
+}
+
+.warning {
+	background:#fce94f;
+	border-color:#edd400;
 }
 
 /* Common classes end */

@@ -154,3 +154,12 @@ background:none repeat scroll 0 0 #F9F9F9;
 	border-color:#CCCCCC;
 	border-style:solid;
 }
+
+.uniForm .buttonHolder a, .uniForm .buttonHolder input {
+	font-size: 1.3em;
+}
+
+form.uniForm div.buttonHolder span a {
+	padding-right: 1em;
+	color: #000000 !important;
+}
