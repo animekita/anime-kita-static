@@ -163,3 +163,9 @@ form.uniForm div.buttonHolder span a {
 	padding-right: 1em;
 	color: #000000 !important;
 }
+
+form.uniForm fieldset.optionList .formHint {
+	margin-left:1% !important;
+	margin-top: 1% !important;
+	width:auto !important;
+}
