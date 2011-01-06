@@ -46,10 +46,24 @@ li, p, fieldset {
 
 table {
     font-size: 1.1em;
+    color: #000000;
+}
+
+table a {
+	color: #204a87 !important;
+}
+
+li {
+	margin-bottom: 0.5em;
 }
 
 li li {
     font-size: 100%; /* Force all nested elements to keep the same size */
+    padding-left: 0px;
+}
+
+li ul {
+	margin: 1em;
 }
 
 /* HTML body start */
