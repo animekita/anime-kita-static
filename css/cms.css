@@ -151,6 +151,10 @@ div#ccm-page-detail {
     line-height:17px;
 }
 
+#midContent	p {
+	text-align: justify;
+}
+
 #midContent ul li {
     list-style-type: square;
     margin-left: 1.4em;
@@ -189,6 +193,19 @@ div#ccm-page-detail {
     margin:0 0 10px 0;
 }
 
+#midContent ul.inline {
+	list-style-type: none;
+	padding: 0;
+}
+#midContent ul.inline li {
+	display: inline;
+	margin: 0 10px 0 10px;
+	padding: 0px;
+}
+#midContent ul.inline li a {
+	font-weight: normal;
+}
+
 /* Content wrapper end */
 
 /* Mid wrapper end */
@@ -198,6 +215,10 @@ div#ccm-page-detail {
 #midContent table {
     margin-bottom: 1em;
     background: #f2f2f2;
+}
+
+#midContent table.centering {
+	margin: 0 auto 1em;
 }
 
 #midContent table td, #midContent table th {
