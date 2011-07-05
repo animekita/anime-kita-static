@@ -92,6 +92,14 @@ body {
 }
 
 /* Top start */
+#top h1 {
+	display: block;
+	width: 407px;
+	height: 135px;
+	background: url('../graphics/toplogo.png') no-repeat;
+	text-indent: -9999px;
+}
+
 #top {
     position:relative;
     margin:0 auto;

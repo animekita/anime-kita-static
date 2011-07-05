@@ -152,7 +152,7 @@ li ul,li ol{
 li li{
 	padding-left:1.5em;
 }
-/** tables still need 'cellspacing="0"' in the markup 
+/** tables still need 'cellspacing="0"' in the markup
  */
 table{
 	border-collapse:collapse;
@@ -230,7 +230,7 @@ th{
 	font-family:Georgia, Gentium, "Times New Roman", Times, serif;
 	margin:0 0 0 -0.55em;
 }
-/** 
+/**
  * Common context-sensitive classes - These names are obnoxious on purpose, I want you to change them into what classname fits with your content. :)
  */
 .firstParagraphArticle:first-letter{
