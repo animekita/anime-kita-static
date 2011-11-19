@@ -24,6 +24,7 @@ div.collection span {
   font-size: 1.4em;
   font-weight: bold;
   text-align: center;
+  width: 190px;
 }
 
 div.collection a {
