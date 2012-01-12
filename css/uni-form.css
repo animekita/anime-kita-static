@@ -169,3 +169,8 @@ form.uniForm fieldset.optionList .formHint {
 	margin-top: 1% !important;
 	width:auto !important;
 }
+
+#id_username, #id_password {
+	font-size: 1.4em;
+	padding: 0.2em;
+}
