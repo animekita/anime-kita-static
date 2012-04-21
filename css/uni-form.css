@@ -155,6 +155,11 @@ background:none repeat scroll 0 0 #F9F9F9;
 	border-style:solid;
 }
 
+.formRow .ctrlHolder {
+    float: left;
+	width: 310px;
+}
+
 .uniForm .buttonHolder a, .uniForm .buttonHolder input {
 	font-size: 1.3em;
 }
