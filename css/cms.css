@@ -337,3 +337,17 @@ dd ol {
   font-size: 0.7em;
   font-style: italic;
 }
+
+#profile-groups {
+    padding-top: 1em;
+    overflow: auto;
+    width: 295px;
+}
+
+#profile-groups h4, #profile-groups table {
+    margin-left: 14px;
+}
+
+#profile-groups table {
+    width: 280px;
+}
