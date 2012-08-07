@@ -40,7 +40,7 @@ p {
     padding:0 0.25em 1em 0.25em;
 }
 
-li, p, fieldset {
+li, p {
     font-size: 1.2em;
 }
 
@@ -201,20 +201,6 @@ body {
 
 .floatLeft {
     float:left;
-}
-
-.error, .warning, .success, .notice {
-	border-width:  1px 0 1px 0;
-	margin:0em 0em 2em 0em;
-}
-
-.notice {
-    border-color: #105A89;
-}
-
-.warning {
-	background:#fce94f;
-	border-color:#edd400;
 }
 
 /* Common classes end */
